@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+{% block content %}
+
+<div>
+    <form method="POST" action="">
+        {{form.hidden_tag()}}
+        <fieldset>
+            <legend> Plot a 3D House </legend>
+            <div>
+                {{form.Street.label()}}
+                {{form.Street()}}
+            </div>
+        </fieldset>
+         <fieldset>
+            <legend> Plot a 3D House </legend>
+            <div>
+                {{form.StreetNumber.label()}}
+                {{form.StreetNumber()}}
+            </div>
+        </fieldset>
+         <fieldset>
+            <legend> Plot a 3D House </legend>
+            <div>
+                {{form.PostCode.label()}}
+                {{form.PostCode()}}
+            </div>
+        </fieldset>
+         <fieldset>
+            <legend> Plot a 3D House </legend>
+            <div>
+                {{form.City.label()}}
+                {{form.City()}}
+            </div>
+        </fieldset>
+        <div>
+            {{form.submit()}}
+        </div>
+
+    </form>
+</div>
+
+
+
+
+
+{% endblock content %}
+
+</body>
+</html>
