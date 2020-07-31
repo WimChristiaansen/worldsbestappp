@@ -1,0 +1,28 @@
+27/8 -> could not work due to sickness
+
+28/8 -> make front-end with flask (make form to ask for user input)
+     -> try to put user input into SQLlite-database
+     problems: no major problems
+
+29/8  -> before noon: prepare tech talk
+      -> after noon:-> put tif files into database (error import georasters) + trying http with Wim
+      problems -> installing georasters did not work, costed lot of time
+
+30/8 -> before noon: trying HTTP with Wim
+      -> afternoon: try geotiff->df->csv->database
+      problems -> installing docker & running an image did not work
+
+31/8  -> try to put all csv files into database
+      -> try to acces database with sqlalchemy
+      -> put program into docker
+      -> heroku
+      problems -> installing docker
+      problems -> getting the project done in time, trying to time manage the most important parts
+      problems -> errors with heroku
+
+
+Teamwork:
+- Went well, video-called 2-3 times a day to keep eachother updated.
+- We worked together on some parts, on other
+    moments we were each trying different explorations/methods.
+
